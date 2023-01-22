@@ -1,0 +1,97 @@
+h1
+{
+	text-align: center;
+}
+select
+{
+	appearance: none;
+	border: none;
+	font-family: inherit;
+  	font-size: inherit;
+  	cursor: inherit;
+  	line-height: inherit;
+	
+}
+body
+{
+	background-color: rgb(111, 167, 241);
+	font-size: 24px;
+	color: black;
+}
+.center {
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+.cmb 
+{
+	display: block;
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+}
+.container .box { 
+	width:100%;  
+	display:table;
+	padding: 0px;
+	height: 100px; 
+} 
+.container .box .box-row { 
+	display:table-row; 
+} 
+.container .box .box-cell { 
+	display:table-cell; 
+	width:20%;
+	height: 50px;
+} 
+.container .box .box-cell.box { 
+	background-color: rgb(98, 80, 235);
+	padding-left: 5px;
+	padding-right: 5px; 
+	margin-left: 5px;
+	margin-right: 5px; 
+	border-radius: 36px;
+	text-align:center;
+	text-justify: auto; 
+	align-self: center;
+	color: black;
+} 
+.container .box .box-cell.box2 { 
+	background-color: darkgray;
+	padding: 5px; 
+	border-radius: 36px;
+	text-align:center;
+	text-justify: auto; 
+} 
+.container .box .box-cell.box3 { 
+	background-color: darkgray;
+	padding: 5px; 
+	border-radius: 36px;
+	text-align:center;
+	text-justify: auto;  
+}
+input[type=submit] {padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+.selectWrapper{
+	border-radius:36px;
+	display:inline-block;
+	overflow:hidden;
+	background:#cccccc;
+	border:1px solid #cccccc;
+  }
+  .selectBox{
+	text-align: center;
+	width:auto;
+	height:auto;
+	border:1px;
+	outline:none;
+  }
+  input[type=button] {padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
